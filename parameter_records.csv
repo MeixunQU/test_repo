@@ -1,0 +1,2 @@
+seed,WARMUP_STEPS,EVAL_EPISODES,MEMORY_SIZE,BATCH_SIZE,GAMMA,TAU,alpha,ACTOR_LR,CRITIC_LR,train_total_episodes,max_episode_steps,test_episode_interval,test_episode_number
+999,1.00E+04,5,1.00E+06,256,0.99,0.005,0.2,3.00E-04,3.00E-04,2500,1.20E+03,10,5

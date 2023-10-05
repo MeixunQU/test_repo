@@ -1,0 +1,25 @@
+[4.000s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py03_tf_broadcaster': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed
+[4.969s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.969s]   warnings.warn(
+[5.233s] running egg_info
+[5.275s] writing ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/PKG-INFO
+[5.276s] writing dependency_links to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/dependency_links.txt
+[5.276s] writing entry points to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/entry_points.txt
+[5.277s] writing requirements to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/requires.txt
+[5.277s] writing top-level names to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/top_level.txt
+[5.371s] reading manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[5.374s] writing manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[5.375s] running build
+[5.375s] running build_py
+[5.377s] running install
+[5.377s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.377s]   warnings.warn(
+[5.401s] running install_lib
+[5.448s] running install_data
+[5.516s] running install_egg_info
+[5.564s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster-0.0.0-py3.8.egg-info' (and everything under it)
+[5.565s] Copying ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster-0.0.0-py3.8.egg-info
+[5.581s] running install_scripts
+[5.750s] Installing demo01_tf_static_broadcaster_py script to /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[5.751s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log'
+[5.869s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py03_tf_broadcaster' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed

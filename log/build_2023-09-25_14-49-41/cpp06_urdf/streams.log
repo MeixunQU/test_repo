@@ -1,0 +1,46 @@
+[0.239s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py:/home/meixun/Desktop/ROS_program/ros2_ws/install/mcl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[6.233s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py:/home/meixun/Desktop/ROS_program/ros2_ws/install/mcl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[6.404s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py:/home/meixun/Desktop/ROS_program/ros2_ws/install/mcl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf
+[6.436s] -- Install configuration: ""
+[6.437s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+[6.439s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/yaml
+[6.440s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[6.441s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/node_start.launch.py
+[6.442s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+[6.443s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/f110_localisation.rviz
+[6.443s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/robot_box.rviz
+[6.444s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/localisation.rviz
+[6.444s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+[6.445s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+[6.446s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_car_urdf.urdf
+[6.449s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+[6.456s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+[6.458s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
+[6.460s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+[6.465s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro
+[6.466s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.xacro
+[6.467s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.xacro
+[6.467s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_lidar.xacro
+[6.468s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.xacro
+[6.469s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+[6.470s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/hokuyo.stl
+[6.470s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/chassis.stl
+[6.471s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/right_wheel.stl
+[6.472s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/left_wheel.stl
+[6.472s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/hinge.stl
+[6.473s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[6.474s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[6.475s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[6.476s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[6.497s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[6.499s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[6.505s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[6.507s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[6.509s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[6.510s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[6.511s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[6.512s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[6.515s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[6.521s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[6.524s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[6.526s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py:/home/meixun/Desktop/ROS_program/ros2_ws/install/mcl:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf

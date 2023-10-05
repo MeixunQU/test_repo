@@ -1,0 +1,6 @@
+[console_scripts]
+hyparams_client = multi_agent_sim.hyparams_client:main
+hyparams_server = multi_agent_sim.hyparams_server:main
+rl_params_server = multi_agent_sim.rl_params_server:main
+train = multi_agent_sim.train:main
+train_ros2 = multi_agent_sim.train_ros2:main

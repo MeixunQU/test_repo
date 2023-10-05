@@ -1,0 +1,2 @@
+[console_scripts]
+demo01_tf_static_broadcaster_py = py03_tf_broadcaster.demo01_tf_static_broadcaster_py:main

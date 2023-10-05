@@ -1,0 +1,31 @@
+[0.891s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed
+[1.061s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.063s]   warnings.warn(
+[1.104s] running egg_info
+[1.110s] writing ../../build/mixed_reality_py/mixed_reality_py.egg-info/PKG-INFO
+[1.111s] writing dependency_links to ../../build/mixed_reality_py/mixed_reality_py.egg-info/dependency_links.txt
+[1.111s] writing entry points to ../../build/mixed_reality_py/mixed_reality_py.egg-info/entry_points.txt
+[1.111s] writing requirements to ../../build/mixed_reality_py/mixed_reality_py.egg-info/requires.txt
+[1.111s] writing top-level names to ../../build/mixed_reality_py/mixed_reality_py.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.126s] copying mixed_reality_py/collision_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[1.127s] copying mixed_reality_py/base_classes.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[1.127s] running install
+[1.127s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.127s]   warnings.warn(
+[1.130s] running install_lib
+[1.137s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/collision_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[1.137s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/base_classes.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[1.138s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/collision_models.py to collision_models.cpython-38.pyc
+[1.139s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/base_classes.py to base_classes.cpython-38.pyc
+[1.141s] running install_data
+[1.154s] running install_egg_info
+[1.161s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info' (and everything under it)
+[1.161s] Copying ../../build/mixed_reality_py/mixed_reality_py.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info
+[1.162s] running install_scripts
+[1.191s] Installing sim2pub script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/mixed_reality_py
+[1.191s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log'
+[1.224s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py' returned '0': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed

@@ -1,0 +1,46 @@
+[0.097s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[2.543s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[2.613s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf
+[2.634s] -- Install configuration: ""
+[2.635s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+[2.636s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/yaml
+[2.636s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[2.637s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch/node_start.launch.py
+[2.637s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+[2.638s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/f110_localisation.rviz
+[2.638s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/robot_box.rviz
+[2.638s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz/localisation.rviz
+[2.639s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+[2.639s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+[2.640s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_car_urdf.urdf
+[2.641s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+[2.646s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+[2.647s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
+[2.647s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+[2.649s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro
+[2.650s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.xacro
+[2.653s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.xacro
+[2.654s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_lidar.xacro
+[2.654s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.xacro
+[2.655s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+[2.655s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/hokuyo.stl
+[2.658s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/chassis.stl
+[2.660s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/right_wheel.stl
+[2.661s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/left_wheel.stl
+[2.662s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes/hinge.stl
+[2.663s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[2.663s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[2.664s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[2.665s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[2.665s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[2.666s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[2.669s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[2.670s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[2.670s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[2.671s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[2.671s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[2.672s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[2.672s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[2.673s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[2.673s] -- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[2.676s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf

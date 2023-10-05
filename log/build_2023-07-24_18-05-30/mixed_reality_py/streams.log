@@ -1,0 +1,29 @@
+[1.420s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed
+[1.831s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.831s]   warnings.warn(
+[1.957s] running egg_info
+[1.974s] writing ../../build/mixed_reality_py/mixed_reality_py.egg-info/PKG-INFO
+[1.975s] writing dependency_links to ../../build/mixed_reality_py/mixed_reality_py.egg-info/dependency_links.txt
+[1.975s] writing entry points to ../../build/mixed_reality_py/mixed_reality_py.egg-info/entry_points.txt
+[1.976s] writing requirements to ../../build/mixed_reality_py/mixed_reality_py.egg-info/requires.txt
+[1.976s] writing top-level names to ../../build/mixed_reality_py/mixed_reality_py.egg-info/top_level.txt
+[2.010s] reading manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[2.012s] writing manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[2.012s] running build
+[2.012s] running build_py
+[2.013s] copying mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[2.013s] running install
+[2.014s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.014s]   warnings.warn(
+[2.022s] running install_lib
+[2.039s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[2.041s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/sim2pub.py to sim2pub.cpython-38.pyc
+[2.043s] running install_data
+[2.071s] copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/mixed_reality_py
+[2.071s] running install_egg_info
+[2.088s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info' (and everything under it)
+[2.088s] Copying ../../build/mixed_reality_py/mixed_reality_py.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info
+[2.089s] running install_scripts
+[2.165s] Installing sim2pub script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/mixed_reality_py
+[2.165s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log'
+[2.225s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed

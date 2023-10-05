@@ -1,0 +1,29 @@
+[9.530s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/multi_agent_sim': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_agent_sim build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log --install-scripts $base/lib/multi_agent_sim --single-version-externally-managed
+[11.315s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.316s]   warnings.warn(
+[11.742s] running egg_info
+[11.815s] writing ../../build/multi_agent_sim/multi_agent_sim.egg-info/PKG-INFO
+[11.816s] writing dependency_links to ../../build/multi_agent_sim/multi_agent_sim.egg-info/dependency_links.txt
+[11.817s] writing entry points to ../../build/multi_agent_sim/multi_agent_sim.egg-info/entry_points.txt
+[11.819s] writing requirements to ../../build/multi_agent_sim/multi_agent_sim.egg-info/requires.txt
+[11.820s] writing top-level names to ../../build/multi_agent_sim/multi_agent_sim.egg-info/top_level.txt
+[11.968s] reading manifest file '../../build/multi_agent_sim/multi_agent_sim.egg-info/SOURCES.txt'
+[11.975s] writing manifest file '../../build/multi_agent_sim/multi_agent_sim.egg-info/SOURCES.txt'
+[11.976s] running build
+[11.977s] running build_py
+[11.982s] running install
+[11.983s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.984s]   warnings.warn(
+[12.021s] running install_lib
+[12.097s] running install_data
+[12.205s] running install_egg_info
+[12.280s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[12.282s] Copying ../../build/multi_agent_sim/multi_agent_sim.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim-0.0.0-py3.8.egg-info
+[12.287s] running install_scripts
+[12.589s] Installing hyparams_client script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[12.591s] Installing hyparams_server script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[12.592s] Installing rl_params_server script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[12.593s] Installing train script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[12.595s] Installing train_ros2 script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[12.596s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log'
+[12.793s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/multi_agent_sim' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_agent_sim build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log --install-scripts $base/lib/multi_agent_sim --single-version-externally-managed

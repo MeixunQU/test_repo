@@ -1,0 +1,132 @@
+<robot name="my_car">
+    <!--color-->
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.0 0.5"/>
+    </material>
+
+    <material name="red">
+        <color rgba="0.9 0.0 0.0 0.5"/>
+    </material>
+    
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/>
+    </material>
+
+    <!-- base_footprint_link-->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <geometry>
+                    <sphere radius="0.001"/>
+                </geometry>
+            </geometry>
+        </visual>
+    </link>
+    <!-- base_link link-->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.2 0.12 0.07"/>
+            </geometry>
+            <material name = "yellow" />
+        </visual>
+    </link>
+
+    <joint name="base_link2base_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.05"/>
+    </joint>
+
+    <!--lidar-->
+    <link name="lidar">
+        <visual>
+            <geometry>
+                <cylinder radius="0.01" length="0.02"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <joint name="lidar2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="lidar"/>
+        <origin xyz="0.09 0.0 0.045"/>
+        <axis xyz="0.0 0.0 1"/>
+    </joint>
+
+    <!--wheels-->
+    <!-- left front wheel -->
+    <link name="left_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.025" length="0.02"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="left_front_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_front_wheel"/>
+        <origin xyz="0.08 0.06 -0.025"/>
+        <axis xyz="0.0 1.0 1.0"/>
+    </joint>
+
+    <!-- right front wheel-->
+    <link name="right_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.025" length="0.02"/>
+            </geometry>c
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="right_front_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_front_wheel"/>
+        <origin xyz="0.08 -0.06 -0.025"/>
+        <axis xyz="0.0 1.0 1.0"/>
+    </joint>
+
+    <!--right rear wheel-->
+    <link name="right_rear_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.025" length="0.02"/>
+            </geometry>c
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="right_rear_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_rear_wheel"/>
+        <origin xyz="-0.08 -0.06 -0.025"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+    <!--left rear wheel-->
+    <link name="left_rear_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.025" length="0.02"/>
+            </geometry>c
+            <material name="black"/>
+            <origin rpy="1.57 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="left_rear_wheel2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_rear_wheel"/>
+        <origin xyz="-0.08 0.06 -0.025"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+    
+    
+</robot>

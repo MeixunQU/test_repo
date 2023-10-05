@@ -1,0 +1,37 @@
+[0.578s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed
+[0.703s] running egg_info
+[0.703s] creating ../../build/mixed_reality_py/mixed_reality_py.egg-info
+[0.703s] writing ../../build/mixed_reality_py/mixed_reality_py.egg-info/PKG-INFO
+[0.704s] writing dependency_links to ../../build/mixed_reality_py/mixed_reality_py.egg-info/dependency_links.txt
+[0.704s] writing entry points to ../../build/mixed_reality_py/mixed_reality_py.egg-info/entry_points.txt
+[0.704s] writing requirements to ../../build/mixed_reality_py/mixed_reality_py.egg-info/requires.txt
+[0.704s] writing top-level names to ../../build/mixed_reality_py/mixed_reality_py.egg-info/top_level.txt
+[0.707s] writing manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[0.727s] reading manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[0.727s] writing manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+[0.728s] running build
+[0.728s] running build_py
+[0.728s] creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build
+[0.728s] creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib
+[0.728s] creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[0.728s] copying mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[0.728s] copying mixed_reality_py/__init__.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+[0.728s] running install
+[0.728s] running install_lib
+[0.729s] creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[0.729s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[0.729s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/__init__.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+[0.730s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/sim2pub.py to sim2pub.cpython-38.pyc
+[0.730s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/__init__.py to __init__.cpython-38.pyc
+[0.731s] running install_data
+[0.731s] creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/ament_index
+[0.731s] creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/ament_index/resource_index
+[0.731s] creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/ament_index/resource_index/packages
+[0.731s] copying resource/mixed_reality_py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/ament_index/resource_index/packages
+[0.731s] copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/share/mixed_reality_py
+[0.731s] running install_egg_info
+[0.732s] Copying ../../build/mixed_reality_py/mixed_reality_py.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info
+[0.733s] running install_scripts
+[0.744s] Installing sim2pub script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/mixed_reality_py
+[0.744s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log'
+[0.758s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/mixed_reality_py' returned '0': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mixed_reality_py build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log --install-scripts $base/lib/mixed_reality_py --single-version-externally-managed

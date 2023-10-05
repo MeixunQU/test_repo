@@ -1,0 +1,24 @@
+[0.381s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py03_tf_broadcaster': PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed
+[0.501s] running egg_info
+[0.502s] writing ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/PKG-INFO
+[0.502s] writing dependency_links to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/dependency_links.txt
+[0.502s] writing entry points to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/entry_points.txt
+[0.502s] writing requirements to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/requires.txt
+[0.502s] writing top-level names to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/top_level.txt
+[0.523s] reading manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[0.524s] writing manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[0.525s] running build
+[0.525s] running build_py
+[0.525s] copying py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster
+[0.525s] running install
+[0.525s] running install_lib
+[0.526s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster
+[0.526s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster/demo01_tf_static_broadcaster_py.py to demo01_tf_static_broadcaster_py.cpython-38.pyc
+[0.527s] running install_data
+[0.528s] running install_egg_info
+[0.529s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster-0.0.0-py3.8.egg-info' (and everything under it)
+[0.529s] Copying ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages/py03_tf_broadcaster-0.0.0-py3.8.egg-info
+[0.529s] running install_scripts
+[0.540s] Installing demo01_tf_static_broadcaster_py script to /home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[0.541s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log'
+[0.556s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py03_tf_broadcaster' returned '0': PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py03_tf_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed

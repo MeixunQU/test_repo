@@ -1,0 +1,56 @@
+[1.235s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/multi_agent_sim': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_agent_sim build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log --install-scripts $base/lib/multi_agent_sim --single-version-externally-managed
+[1.465s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.466s]   warnings.warn(
+[1.515s] running egg_info
+[1.523s] writing ../../build/multi_agent_sim/multi_agent_sim.egg-info/PKG-INFO
+[1.523s] writing dependency_links to ../../build/multi_agent_sim/multi_agent_sim.egg-info/dependency_links.txt
+[1.523s] writing entry points to ../../build/multi_agent_sim/multi_agent_sim.egg-info/entry_points.txt
+[1.523s] writing requirements to ../../build/multi_agent_sim/multi_agent_sim.egg-info/requires.txt
+[1.524s] writing top-level names to ../../build/multi_agent_sim/multi_agent_sim.egg-info/top_level.txt
+[1.538s] reading manifest file '../../build/multi_agent_sim/multi_agent_sim.egg-info/SOURCES.txt'
+[1.539s] writing manifest file '../../build/multi_agent_sim/multi_agent_sim.egg-info/SOURCES.txt'
+[1.539s] running build
+[1.539s] running build_py
+[1.539s] copying multi_agent_sim/sac_naked.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.540s] copying multi_agent_sim/env_sac_f110.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.540s] copying multi_agent_sim/rendering.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.540s] copying multi_agent_sim/collision_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.540s] copying multi_agent_sim/dynamic_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.540s] copying multi_agent_sim/laser_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.541s] copying multi_agent_sim/base_classes.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.541s] copying multi_agent_sim/lidar_process.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.541s] copying multi_agent_sim/train.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.542s] copying multi_agent_sim/initialize.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim
+[1.542s] running install
+[1.542s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.542s]   warnings.warn(
+[1.548s] running install_lib
+[1.560s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/sac_naked.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/env_sac_f110.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/rendering.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/collision_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/dynamic_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/laser_models.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/base_classes.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/lidar_process.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/train.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] copying /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build/lib/multi_agent_sim/initialize.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim
+[1.561s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/sac_naked.py to sac_naked.cpython-38.pyc
+[1.564s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/env_sac_f110.py to env_sac_f110.cpython-38.pyc
+[1.566s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/rendering.py to rendering.cpython-38.pyc
+[1.567s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/collision_models.py to collision_models.cpython-38.pyc
+[1.568s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/dynamic_models.py to dynamic_models.cpython-38.pyc
+[1.570s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/laser_models.py to laser_models.cpython-38.pyc
+[1.572s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/base_classes.py to base_classes.cpython-38.pyc
+[1.573s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/lidar_process.py to lidar_process.cpython-38.pyc
+[1.574s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/train.py to train.cpython-38.pyc
+[1.575s] byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim/initialize.py to initialize.cpython-38.pyc
+[1.576s] running install_data
+[1.591s] copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/share/multi_agent_sim
+[1.591s] running install_egg_info
+[1.600s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[1.600s] Copying ../../build/multi_agent_sim/multi_agent_sim.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages/multi_agent_sim-0.0.0-py3.8.egg-info
+[1.601s] running install_scripts
+[1.637s] Installing train script to /home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/multi_agent_sim
+[1.637s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log'
+[1.668s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/multi_agent_sim' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/multi_agent_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/multi_agent_sim build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/multi_agent_sim/install.log --install-scripts $base/lib/multi_agent_sim --single-version-externally-managed

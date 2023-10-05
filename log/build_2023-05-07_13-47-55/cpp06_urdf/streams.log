@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/meixun/Desktop/ROS_program/ros2_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf
+[0.046s] -- The C compiler identification is GNU 9.4.0
+[0.081s] -- The CXX compiler identification is GNU 9.4.0
+[0.083s] -- Check for working C compiler: /usr/bin/cc
+[0.146s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.146s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.255s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.318s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.333s] -- Found PythonInterp: /home/meixun/miniconda3/bin/python3 (found suitable version "3.8.16", minimum required is "3") 
+[0.333s] -- Using PYTHON_EXECUTABLE: /home/meixun/miniconda3/bin/python3
+[0.448s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.504s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.505s] -- Added test 'lint_cmake' to check CMake code style
+[0.505s] -- Added test 'xmllint' to check XML markup files
+[0.507s] -- Configuring done
+[0.508s] -- Generating done
+[0.508s] -- Build files have been written to: /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf
+[0.511s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/meixun/Desktop/ROS_program/ros2_ws/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf
+[0.514s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[0.539s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf -- -j16 -l16
+[0.560s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf
+[0.565s] -- Install configuration: ""
+[0.565s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[0.565s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[0.565s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[0.565s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[0.565s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[0.566s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[0.566s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[0.566s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[0.566s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[0.566s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[0.567s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[0.567s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[0.569s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[0.569s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[0.569s] -- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[0.569s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf

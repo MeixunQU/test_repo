@@ -1,0 +1,24 @@
+[1.426s] Invoking command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py_train_launch': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_train_launch build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/install.log --install-scripts $base/lib/py_train_launch --single-version-externally-managed
+[1.696s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.696s]   warnings.warn(
+[1.764s] running egg_info
+[1.771s] writing ../../build/py_train_launch/py_train_launch.egg-info/PKG-INFO
+[1.772s] writing dependency_links to ../../build/py_train_launch/py_train_launch.egg-info/dependency_links.txt
+[1.772s] writing requirements to ../../build/py_train_launch/py_train_launch.egg-info/requires.txt
+[1.772s] writing top-level names to ../../build/py_train_launch/py_train_launch.egg-info/top_level.txt
+[1.803s] reading manifest file '../../build/py_train_launch/py_train_launch.egg-info/SOURCES.txt'
+[1.804s] writing manifest file '../../build/py_train_launch/py_train_launch.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] running install
+[1.804s] /home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.804s]   warnings.warn(
+[1.808s] running install_lib
+[1.816s] running install_data
+[1.825s] copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/share/py_train_launch
+[1.826s] running install_egg_info
+[1.855s] removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages/py_train_launch-0.0.0-py3.8.egg-info' (and everything under it)
+[1.855s] Copying ../../build/py_train_launch/py_train_launch.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages/py_train_launch-0.0.0-py3.8.egg-info
+[1.856s] running install_scripts
+[1.905s] writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/install.log'
+[1.941s] Invoked command in '/home/meixun/Desktop/ROS_program/ros2_ws/src/py_train_launch' returned '0': CONDA_PROMPT_MODIFIER=(f110RLparking) PYTHONPATH=/home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/prefix_override:/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_train_launch build --build-base /home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/build install --record /home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/install.log --install-scripts $base/lib/py_train_launch --single-version-externally-managed

@@ -1,0 +1,9 @@
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/env_sac_f110.py", line 313
+    print("last state is :"last_state)
+                           ^
+SyntaxError: invalid syntax
+

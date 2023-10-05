@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/meixun/miniconda3/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/meixun/Desktop/ROS_program/ros2_ws/build/cpp06_urdf
+-- Install configuration: ""
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/launch
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/rviz
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/meshes
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+-- Up-to-date: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+-- Installing: /home/meixun/Desktop/ROS_program/ros2_ws/install/cpp06_urdf/share/cpp06_urdf/package.xml

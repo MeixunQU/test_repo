@@ -1,0 +1,26 @@
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/mixed_reality_py/mixed_reality_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/mixed_reality_py/mixed_reality_py.egg-info/dependency_links.txt
+writing entry points to ../../build/mixed_reality_py/mixed_reality_py.egg-info/entry_points.txt
+writing requirements to ../../build/mixed_reality_py/mixed_reality_py.egg-info/requires.txt
+writing top-level names to ../../build/mixed_reality_py/mixed_reality_py.egg-info/top_level.txt
+reading manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/mixed_reality_py/mixed_reality_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/build/lib/mixed_reality_py/sim2pub.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py/sim2pub.py to sim2pub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mixed_reality_py/mixed_reality_py.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/python3.8/site-packages/mixed_reality_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing sim2pub script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mixed_reality_py/lib/mixed_reality_py
+writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/mixed_reality_py/install.log'

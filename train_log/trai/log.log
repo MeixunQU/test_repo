@@ -1,0 +1,3 @@
+[33m[09-25 09:32:54 MainThread @tensorboard.py:32][0m [5m[33mWRN[0m [tensorboard] logdir is None, will save tensorboard files to train_log/trai
+View the data using: tensorboard --logdir=train_log/trai --host=192.168.102.217
+[32m[09-25 09:32:54 MainThread @train.py:276][0m Episode: 1 Total Steps: 84 Reward: -2583.1305753133106

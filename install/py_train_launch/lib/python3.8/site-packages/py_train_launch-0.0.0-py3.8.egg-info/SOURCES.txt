@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_train_launch/py_train_launch.egg-info/PKG-INFO
+../../build/py_train_launch/py_train_launch.egg-info/SOURCES.txt
+../../build/py_train_launch/py_train_launch.egg-info/dependency_links.txt
+../../build/py_train_launch/py_train_launch.egg-info/requires.txt
+../../build/py_train_launch/py_train_launch.egg-info/top_level.txt
+../../build/py_train_launch/py_train_launch.egg-info/zip-safe
+py_train_launch/__init__.py
+resource/py_train_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

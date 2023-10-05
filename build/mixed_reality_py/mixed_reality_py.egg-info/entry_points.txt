@@ -1,0 +1,3 @@
+[console_scripts]
+sim2pub = mixed_reality_py.sim2pub:main
+sub_pose_realcar = mixed_reality_py.sub_pose_realcar:main

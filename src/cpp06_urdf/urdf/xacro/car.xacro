@@ -1,0 +1,6 @@
+<!-- main xacro file -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
+    <xacro:include filename="car_base.xacro"/>
+    <!-- <xacro:include filename="car_camera.xacro"/> -->
+    <xacro:include filename="car_lidar.xacro"/>
+</robot>

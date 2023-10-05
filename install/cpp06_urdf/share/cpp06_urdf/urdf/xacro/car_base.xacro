@@ -1,0 +1,96 @@
+<!-- car base -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+   
+    <!--color-->
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.0 0.8"/>
+    </material>
+
+    <!-- pink-->
+    <material name="red">
+        <color rgba="1 0.75 0.8 1.0"/>
+    </material>
+    
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.8"/>
+    </material>
+    
+    <material name="blue">
+        <color rgba="0.1 0.1 0.7 0.8"/>
+    </material>
+
+    <!--1. contants-->
+    <xacro:property name="PI" value="3.1415927" />
+    
+    <xacro:property name="car_length" value="0.55" />
+    <xacro:property name="car_width" value="0.30" />
+    <xacro:property name="car_height" value="0.1" />
+
+    <xacro:property name="wheel_radius" value="0.04" />
+    <xacro:property name="wheel_length" value="0.045" />
+
+    <xacro:property name="distance" value="0.05" />
+
+    <!--wheel2baselink joint offsets-->
+    <xacro:property name="wheel_x" value="0.16" />
+    <xacro:property name="wheel_y" value="${car_width/2}" />
+    <xacro:property name="wheel_z" value="${-(car_height/2 + distance - wheel_radius)}" />
+
+    <!-- 2. base_footprint -> base_link
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link> -->
+
+    <!--3. base_link -> base_footprint-->
+    <link name="virtual_car1_base_link">
+        <visual>
+            <geometry>
+                <box size="${car_length} ${car_width} ${car_height}"/>
+            </geometry>
+            <material name = "red" />
+        </visual>
+    </link>
+
+    <!-- 4. joint
+    <joint name="base_footprint2base_link" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 ${car_height/2 + distance}"/>
+    </joint> -->
+
+    <!--5. xacro-->
+    <xacro:macro name="wheel_func" params="link_name front_rear_flag right_left_flag axis_flag" >
+        <link name="${link_name}">
+            <visual>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
+                </geometry>
+                <material name="black"/>
+                <origin rpy="${PI / 2} 0.0 0.0"/>
+            </visual>
+        </link>
+
+        <!-- front_rear_flag -> 1(front), -1(rear)-->
+        <!-- right_left_flag -> 1(left), -1(right)-->
+        <!-- axis_flag -> 1(front), 0(rear)-->
+        <joint name="${link_name}2virtual_car1_base_link" type="continuous">
+            <parent link="virtual_car1_base_link"/>
+            <child link="${link_name}"/>
+            <origin xyz="${front_rear_flag * wheel_x} ${right_left_flag * wheel_y} ${wheel_z}"/>
+            <axis xyz="0.0 1.0 ${axis_flag}"/>
+        </joint>
+    </xacro:macro>
+
+    <!--6. call xacro-->
+    <xacro:wheel_func link_name="front_left" front_rear_flag="1" right_left_flag="1" axis_flag="1" />
+    <xacro:wheel_func link_name="front_right" front_rear_flag="1" right_left_flag="-1" axis_flag="1" />
+
+    <xacro:wheel_func link_name="rear_right" front_rear_flag="-1" right_left_flag="-1" axis_flag="0" />
+    <xacro:wheel_func link_name="rear_left" front_rear_flag="-1" right_left_flag="1" axis_flag="0" />
+    
+    
+</robot>

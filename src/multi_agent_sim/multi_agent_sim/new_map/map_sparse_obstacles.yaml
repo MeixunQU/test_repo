@@ -1,0 +1,17 @@
+image: map_sparse_obstacles.png
+resolution: 0.027500
+# The x and y (first two) number in the origin field is used to determine where the origin of the map frame is.
+origin: [-1, -2, 0.000]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196
+
+# map paths
+map_path: './src/multi_agent_sim/multi_agent_sim/new_map/map_sparse_obstacles'
+map_ext: '.png'
+
+# starting pose for map
+sx: 2
+sy: 2
+# stheta is heading angle of the car (rad)
+stheta: 0

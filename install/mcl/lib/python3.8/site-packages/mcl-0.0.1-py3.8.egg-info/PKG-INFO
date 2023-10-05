@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: mcl
+Version: 0.0.1
+Summary: Monte Carlo Lozalizer for epuck on Webots Simulator
+Home-page: UNKNOWN
+Author: Debby Nirwan
+Author-email: debby_nirwan@yahoo.com
+Maintainer: Debby Nirwan
+Maintainer-email: debby_nirwan@yahoo.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: ROS2,Webots,Monte Carlo Localization,MCL,Simulation,Examples,Particle Filter
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

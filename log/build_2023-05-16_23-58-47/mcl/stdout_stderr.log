@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/mcl/mcl.egg-info
+writing ../../build/mcl/mcl.egg-info/PKG-INFO
+writing dependency_links to ../../build/mcl/mcl.egg-info/dependency_links.txt
+writing entry points to ../../build/mcl/mcl.egg-info/entry_points.txt
+writing requirements to ../../build/mcl/mcl.egg-info/requires.txt
+writing top-level names to ../../build/mcl/mcl.egg-info/top_level.txt
+writing manifest file '../../build/mcl/mcl.egg-info/SOURCES.txt'
+reading manifest file '../../build/mcl/mcl.egg-info/SOURCES.txt'
+writing manifest file '../../build/mcl/mcl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build
+creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib
+creating /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/monte_carlo_localizer.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/__init__.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/random_bounce.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/mission_controller.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/sensor_model.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/motion_model.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+copying mcl/util.py -> /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl
+running install
+running install_lib
+creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/monte_carlo_localizer.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/__init__.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/random_bounce.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/mission_controller.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/sensor_model.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/motion_model.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+copying /home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/build/lib/mcl/util.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/monte_carlo_localizer.py to monte_carlo_localizer.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/random_bounce.py to random_bounce.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/mission_controller.py to mission_controller.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/sensor_model.py to sensor_model.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/motion_model.py to motion_model.cpython-38.pyc
+byte-compiling /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl/util.py to util.cpython-38.pyc
+running install_data
+creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/ament_index
+creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/ament_index/resource_index
+creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/ament_index/resource_index/packages
+copying resource/mcl -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/ament_index/resource_index/packages
+copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl
+copying launch/mcl_launch.py -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl
+creating /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/random_bounce.yaml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/motion_model.yaml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/epuck_world_map.pgm -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/epuck_world_map.yaml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/configs.rviz -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/sensor_model.yaml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+copying resource/mcl.yaml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/share/mcl/resource
+running install_egg_info
+Copying ../../build/mcl/mcl.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/python3.8/site-packages/mcl-0.0.1-py3.8.egg-info
+running install_scripts
+Installing mission_controller script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/mcl
+Installing monte_carlo_localizer script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/mcl
+Installing random_bounce script to /home/meixun/Desktop/ROS_program/ros2_ws/install/mcl/lib/mcl
+writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/mcl/install.log'

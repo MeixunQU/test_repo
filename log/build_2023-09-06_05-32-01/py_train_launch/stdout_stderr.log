@@ -1,0 +1,22 @@
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/py_train_launch/py_train_launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_train_launch/py_train_launch.egg-info/dependency_links.txt
+writing requirements to ../../build/py_train_launch/py_train_launch.egg-info/requires.txt
+writing top-level names to ../../build/py_train_launch/py_train_launch.egg-info/top_level.txt
+reading manifest file '../../build/py_train_launch/py_train_launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_train_launch/py_train_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/meixun/miniconda3/envs/f110RLparking/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+copying package.xml -> /home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/share/py_train_launch
+running install_egg_info
+removing '/home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages/py_train_launch-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/py_train_launch/py_train_launch.egg-info to /home/meixun/Desktop/ROS_program/ros2_ws/install/py_train_launch/lib/python3.8/site-packages/py_train_launch-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/meixun/Desktop/ROS_program/ros2_ws/build/py_train_launch/install.log'
